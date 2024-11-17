@@ -1,4 +1,4 @@
-# learn-html-css
+# mylearn-html-css
 
 <h3>여기는 Monoki가 HTML, CSS를 배우는 곳이에요.</h3>
 <p>ChatGPT 4o와 강의로 배우고 있어요. GPT는 모르는 것들이나 문제들을 해결할 때 도움용으로 사용한답니다.<br />(귀찮으면 복붙하기도 하고요) </p>
