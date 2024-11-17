@@ -1,0 +1,77 @@
+@import url('https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css');
+
+.c-profile {
+  width: 130px; /* 이미지 크기 */
+  height: 130px; /* 이미지 크기 */
+  border-radius: 50%; /* 원형으로 만들기 */
+  object-fit: cover; /* 이미지 잘림 방지 */
+  display: block;
+  margin: 0px 10px;
+}
+.profile {
+  width: 100px; /* 이미지 크기 */
+  height: 100px; /* 이미지 크기 */
+  border-radius: 50%; /* 원형으로 만들기 */
+  object-fit: cover; /* 이미지 잘림 방지 */
+  display: block;
+}
+.profile-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.profile-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-box {
+  display: flex;
+  padding: 14px;
+  border-radius: 8px;
+  background-color: #f1f4f7;
+}
+.text-box {
+  margin-top: 3px;
+}
+.link-container {
+  display: flex; /* 전체 블록 요소를 클릭 가능하게 */
+  text-decoration: none; /* 링크의 기본 밑줄 제거 */
+  color: inherit; /* 텍스트 색상 상속 */
+}
+.link-container div:hover {
+  background-color: #e0e0e0;
+}
+
+body {
+  margin: 24px 20px 0px;
+  font-family: 'SUIT Variable', sans-serif;
+  background-color: #fff;
+}
+h1 {
+  margin: 8px 0px;
+  font-size: 42px;
+}
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+h3 {
+  margin-top: 0px;
+  font-size: 18px;
+}
+.h3-h {
+  margin: 20px 3px 12px;
+  font-size: 18px;
+}
+p {
+  margin: 14px 0px 3px 0px;
+  color: #3d3b40;
+}
+hr {
+  margin-top: 20px;
+}
+span {
+  color: blueviolet;
+  font-weight: 600;
+}
