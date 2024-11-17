@@ -1,8 +1,8 @@
 @import url('https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css');
 
 .c-profile {
-  width: 130px; /* 이미지 크기 */
-  height: 130px; /* 이미지 크기 */
+  width: 100px; /* 이미지 크기 */
+  height: 100px; /* 이미지 크기 */
   border-radius: 50%; /* 원형으로 만들기 */
   object-fit: cover; /* 이미지 잘림 방지 */
   display: block;
@@ -16,13 +16,15 @@
   display: block;
 }
 .profile-box {
+  /* 프로필 이미지와 텍스트들을 하나로 묶어 왼쪽으로 정렬하고 싶으면 html 10줄에 스타일을 추가하세요. */
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.8rem;
 }
 .profile-text {
   display: flex;
   flex-direction: column;
+  align-items: left;
 }
 
 .link-box {
