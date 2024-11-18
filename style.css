@@ -62,6 +62,9 @@
   margin-top: -5px;
   line-height: 1.4;
 }
+.link-box h3 {
+  color: #e5e7f4; /* 밝은 포인트 색상 */
+}
 
 .link-container {
   display: flex; /* 전체 블록 요소를 클릭 가능하게 */
