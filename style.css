@@ -100,6 +100,10 @@ h3 {
   margin: 20px 3px 12px;
   font-size: 18px;
 }
+.p-small {
+  margin: 20px 3px 12px;
+  font-size: 14px;
+}
 p {
   margin: 14px 0px 3px 0px;
   color: #bbc3cb;
@@ -110,4 +114,42 @@ hr {
 span {
   color: blueviolet;
   font-weight: 600;
+}
+
+.other-gap {
+  display: flex;
+  gap: 0.8rem;
+  flex-direction: column;
+}
+
+/* 메인 컨테이너: 프로필과 링크 섹션을 가로로 배치 */
+.main-container {
+  display: flex; /* 플렉스박스 활성화 */
+  gap: 20px; /* 두 섹션 간 간격 */
+  justify-content: space-between; /* 가로로 균등하게 배치 */
+  align-items: flex-start; /* 세로축 정렬 */
+  padding: 20px;
+}
+
+/* 1번: 프로필 섹션 */
+.profile-section {
+  flex: 1; /* 가로 공간을 적절히 차지 */
+  max-width: 50%; /* 최대 너비 제한 */
+}
+
+/* 2번: 관련 링크 섹션 */
+.related-links {
+  flex: 1; /* 가로 공간을 적절히 차지 */
+  max-width: 50%; /* 최대 너비 제한 */
+}
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .profile-section,
+  .related-links {
+    max-width: 100%; /* 너비 제한 해제 */
+  }
 }
